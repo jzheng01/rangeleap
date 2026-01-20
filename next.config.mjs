@@ -7,7 +7,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/rangeleap',
+  basePath: '',
   trailingSlash: true,
 }
 
