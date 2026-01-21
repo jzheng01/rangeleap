@@ -35,13 +35,7 @@ export function Hero() {
               Get in touch
               <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="rounded-lg text-base px-8 h-12 md:h-14 border-border hover:bg-muted font-semibold bg-transparent"
-            >
-              View case studies
-            </Button>
+
           </div>
         </div>
       </div>

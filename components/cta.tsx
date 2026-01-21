@@ -24,13 +24,7 @@ export function CTA() {
                 Get in touch
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="rounded-lg text-base px-8 h-12 md:h-14 border-white/30 hover:bg-white/10 bg-transparent text-white font-semibold"
-              >
-                Schedule a call
-              </Button>
+
             </div>
           </div>
 

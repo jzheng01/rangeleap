@@ -60,20 +60,20 @@ export function Navigation() {
         {/* Mobile Menu */}
         {mobileMenuOpen && (
           <div className="md:hidden py-6 space-y-4 border-t border-border/40">
-            <a href="#services" className="block text-base font-medium text-foreground/70 hover:text-foreground py-2">
+            <a href="#services" className="block text-base font-medium text-foreground/70 hover:text-foreground transition-colors py-2">
               Services
             </a>
             <a
               href="#how-it-works"
-              className="block text-base font-medium text-foreground/70 hover:text-foreground py-2"
+              className="block text-base font-medium text-foreground/70 hover:text-foreground transition-colors py-2"
             >
               How It Works
             </a>
-            <a href="#about" className="block text-base font-medium text-foreground/70 hover:text-foreground py-2">
+            <a href="#about" className="block text-base font-medium text-foreground/70 hover:text-foreground transition-colors py-2">
               About
             </a>
             <div className="pt-4 space-y-3">
-              <Button variant="outline" className="w-full rounded-lg font-semibold bg-transparent">
+              <Button variant="outline" className="w-full rounded-lg font-semibold">
                 Log in
               </Button>
               <Button className="w-full bg-success text-white hover:bg-success/90 rounded-lg font-semibold">

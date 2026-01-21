@@ -86,13 +86,14 @@ export function CookieBanner({ onSettingsClick }: CookieBannerProps) {
             Decline All
           </Button>
           <Button
-            variant="secondary"
+            variant="default"
             size="sm"
             onClick={handleAcceptAll}
           >
             Accept All
           </Button>
           <Button
+            variant="default"
             size="sm"
             className="bg-success text-white hover:bg-success/90"
             onClick={onSettingsClick}
@@ -206,6 +207,7 @@ export function CookieSettings({ open, onOpenChange }: CookieConsentProps) {
                 Cancel
               </Button>
               <Button
+                variant="default"
                 onClick={handleSavePreferences}
                 className="bg-success text-white hover:bg-success/90"
               >
